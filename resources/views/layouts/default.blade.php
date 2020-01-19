@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>@yield('title','Weibo App') - Laravel 入门教程L01</title>
+    <link href="image/favicon.ico" rel="icon" type="image/x-ico">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   </head>
   <body>
