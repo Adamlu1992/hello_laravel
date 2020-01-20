@@ -27,3 +27,4 @@ Route::resource('users', 'UsersController');
 Route::get('login', 'SessionsController@create')->name('login'); //显示登录页面
 Route::post('login', 'SessionsController@store')->name('login'); //创建新会话
 Route::delete('logout', 'SessionsController@destroy')->name('logout');//销毁会话
+Route::get('signup/confirm/{token}', 'UsersController@confirmEmail')->name('confirm_email');
